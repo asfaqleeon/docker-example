@@ -1,0 +1,37 @@
+1. list of all running containers
+docker container ls
+
+2. list of all containers
+docker container ls -a
+
+3. remove a container
+docker container rm <first three character>
+example: docker container rm 9ba
+
+4. remove a running container
+docker container rm mycontainer -f
+
+5. list of images
+docker images
+
+6. delete image
+docker image rm <first three character>
+example: docker image rm c4t
+
+7. stop a container
+docker container stop <name>
+example: docker container stop mysql
+
+8. bash a container
+docker container exec -it <name> bash
+docker container exec -it mynginx bash
+
+or only -it command
+docker container run -it ubuntu
+
+
+
+
+
+
+
