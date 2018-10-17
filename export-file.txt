@@ -1,0 +1,9 @@
+1. run the container + create a file
+ # docker run -it ubuntu
+ # cd home
+ # touch a.txt
+
+2. open another shell go to destination folder
+3. copy to the folder by .
+ docker cp <container name>:<container path> <host path>
+ example: docker cp my_ubuntu:home/a.txt .
